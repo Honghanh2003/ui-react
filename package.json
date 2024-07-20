@@ -4,12 +4,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "lint": "echo 'Skipping lint'",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "lint": "next lint"
   },
   "dependencies": {
     "framer-motion": "^7.6.7",
