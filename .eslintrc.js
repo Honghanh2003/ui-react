@@ -21,6 +21,9 @@ module.exports = {
     'tailwindcss', // Thêm plugin Tailwind CSS
   ],
   rules: {
+    'quotes': ['error', 'double'], // Sử dụng dấu nháy kép
+    'quote-props': ['error', 'as-needed'],
+    'tailwindcss/classnames-order': 'off',
     'tailwindcss/classnames-order': 'off', // Tắt kiểm tra thứ tự tên lớp Tailwind
     'tailwindcss/no-custom-classname': 'off', // Tắt cảnh báo về tên lớp tùy chỉnh
     'react/no-unescaped-entities': 0,
