@@ -21,6 +21,8 @@ module.exports = {
     'tailwindcss', // Thêm plugin Tailwind CSS
   ],
   rules: {
+    'tailwindcss/classnames-order': 'off', // Tắt kiểm tra thứ tự tên lớp Tailwind
+    'tailwindcss/no-custom-classname': 'off', // Tắt cảnh báo về tên lớp tùy chỉnh
     'react/no-unescaped-entities': 0,
     'eslintreact/no-danger': 0,
     'react/jsx-max-props-per-line': 0,
