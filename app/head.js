@@ -1,9 +1,7 @@
-const Head = () => (
-  <>
-    <title>Metaversus</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="/favicon.ico" />
-  </>
-);
+import React from 'react'
 
-export default Head;
+export const head = () => {
+  return (
+    <div>head</div>
+  )
+}
